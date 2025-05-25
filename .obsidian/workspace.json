@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "646dca52fd7c1591",
+    "type": "split",
+    "children": [
+      {
+        "id": "750594981bc097ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7028feb6ac5a8ca1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture 0.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 0"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "183d755544146632",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ac7f72d90fdabc8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28e838c0ce215b34",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a14e4cf9c20386e5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8a6520bface51402",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "776bbc510c5125e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ee3cb6c76fe3c60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54257fc8c6872f97",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Lecture 0.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Lecture 0"
+            }
+          },
+          {
+            "id": "b0e9b5cb7edfd65a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Lecture 0.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Lecture 0"
+            }
+          },
+          {
+            "id": "545c48322af4d6c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "c43daa954a2c3482",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Lecture 0.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Lecture 0"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7028feb6ac5a8ca1",
+  "lastOpenFiles": [
+    "Source Code/src0/lecture0.py",
+    "Source Code/src0/hello.py",
+    "Source Code/src0/calculator9.py",
+    "Source Code/src0",
+    "(A Document Being Saved By AUHelperService)",
+    "Source Code/src0.zip",
+    "Source Code/Unconfirmed 761444.crdownload",
+    "Source Code",
+    "Lecture 0.md"
+  ]
+}
