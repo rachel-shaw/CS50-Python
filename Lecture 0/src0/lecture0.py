@@ -101,7 +101,106 @@ Integers or int
 # print(z)
 
 ## more efficient way to write
-x = int(input("What's x? "))
-y = int(input("What's y? "))
+# x = int(input("What's x? "))
+# y = int(input("What's y? "))
 
-print(x + y)
+# print(x + y)
+
+"""
+Float Basics
+"""
+## using floats
+# x = float(input("What's x? ")) #floats allows decimals
+# y = float(input("What's y? "))
+
+# print(x + y)
+
+##rounding (to whole number)
+# x = float(input("What's x? ")) #floats allows decimals
+# y = float(input("What's y? "))
+
+# z = round(x + y)
+
+# print(f"{z:,}") #includes commas in thousands place, etc
+
+##rounding (to 2 numbers after decimal)
+# x = float(input("What's x? ")) #floats allows decimals
+# y = float(input("What's y? "))
+
+# z = round(x * y, 2)
+
+# print(f"{z:,}") #includes commas in thousands place, etc
+
+
+"""
+More on Floats
+"""
+#use fstring instead of round to round to 2 numbers after decimal 
+# Get the user's input
+# x = float(input("What's x? "))
+# y = float(input("What's y? "))
+
+# # Calculate the result
+# z = x * y
+
+# # Print the result
+# print(f"{z:,.2f}") #get two decimal places and include comma for large numbers
+
+"""
+Def
+"""
+    
+# Create our own function
+# def hello(to):
+#     print("hello,", to) #add parameter "to"
+
+
+# # Output using our own function
+# name = input("What's your name? ")
+# hello(name)
+
+### add default answer if user doesn't fill out argument
+# Create our own function
+# def hello(to="world"):
+#     print("hello,", to)
+
+# # Output using our own function
+# name = input("What's your name? ")
+# hello(name)
+
+# # Output without passing the expected arguments
+# hello()
+
+
+#### Setting up Main
+
+# def main():
+
+#     # Output using our own function
+#     name = input("What's your name? ")
+#     hello(name)
+
+#     # Output without passing the expected arguments
+#     hello()
+
+
+# # Create our own function
+# def hello(to="world"):
+#     print("hello,", to)
+
+# main()
+
+
+"""
+Returning Values
+"""
+def main():
+    x = int(input("What's x? "))
+    print("x squared is", square(x))
+
+
+def square(n):
+    return n * n
+
+
+main()
