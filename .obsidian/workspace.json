@@ -4,53 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "750594981bc097ab",
+        "id": "b9c3a7a6d8560892",
         "type": "tabs",
         "children": [
           {
-            "id": "65e82de75cbe7f87",
+            "id": "5512bf3e7ab99fa8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Lecture 0 Notes/Lecture 0 - Main Video.md",
+                "file": "Notes/Lecture 1 Notes/Problem Set 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture 0 - Main Video"
+              "title": "Problem Set 1"
             }
           },
           {
-            "id": "f14105ba55bd0f46",
+            "id": "288c6c873e4803e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Lecture 0 Notes/Tip Calculator.md",
+                "file": "Notes/Lecture 1 Notes/Boolean Expressions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tip Calculator"
-            }
-          },
-          {
-            "id": "d679e04d34cf0b81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Lecture 0 Notes/Lecture 0 - Supplemental Videos.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lecture 0 - Supplemental Videos"
+              "title": "Boolean Expressions"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Lecture 0 Notes/Lecture 0 - Supplemental Videos.md",
+                "file": "Notes/Conditionals (short).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lecture 0 - Supplemental Videos"
+              "title": "Backlinks for Conditionals (short)"
             }
           },
           {
@@ -143,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Lecture 0 Notes/Lecture 0 - Supplemental Videos.md",
+                "file": "Notes/Conditionals (short).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lecture 0 - Supplemental Videos"
+              "title": "Outgoing links from Conditionals (short)"
             }
           },
           {
@@ -172,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Lecture 0 Notes/Lecture 0 - Supplemental Videos.md",
+                "file": "Notes/Conditionals (short).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lecture 0 - Supplemental Videos"
+              "title": "Outline of Conditionals (short)"
             }
           }
         ]
@@ -198,26 +183,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d679e04d34cf0b81",
+  "active": "5512bf3e7ab99fa8",
   "lastOpenFiles": [
-    "Notes/Lecture 0 Notes/Tip Calculator.md",
-    "Notes/Lecture 0 Notes/Lecture 0 - Main Video.md",
-    "Notes/Lecture 0 Notes/Lecture 0 - Supplemental Videos.md",
-    "Scripts/Lecture 0 Scripts/tip/tip.py",
-    "Scripts/Lecture 0 Scripts/tip",
-    "tip",
-    "Notes/Lecture 0 Notes/Einstein.md",
-    "Scripts/Lecture 0 Scripts/einstein/einstein.py",
-    "Scripts/Lecture 0 Scripts/einstein",
-    "Notes/Lecture 0 Notes/Making Faces.md",
-    "Scripts/Lecture 0 Scripts/faces/faces.py",
-    "Scripts/Lecture 0 Scripts/faces/makingfaces.py",
-    "Scripts/Lecture 0 Scripts/faces",
-    "Scripts/Lecture 0 Scripts/makingfaces.py",
-    "makingfaces.py",
-    "Notes/Lecture 0 Notes/Playback Speed.md",
+    "Notes/Lecture 1 Notes/Meal Time.md",
     "Notes/Lecture 0 Notes/Problem Set 0.md",
+    "Notes/Lecture 0 Notes/Tip Calculator.md",
+    "Notes/Lecture 0 Notes/Einstein.md",
+    "Notes/Lecture 0 Notes/Making Faces.md",
+    "Notes/Lecture 0 Notes/Playback Speed.md",
     "Notes/Lecture 0 Notes/Indoor Voice.md",
-    "Indoor.md"
+    "Notes/Lecture 1 Notes/Boolean Expressions.md",
+    "Table of Contents.md",
+    "Notes/Lecture 1 Notes/Conditionals.md",
+    "Notes/Lecture 0 Notes/Functions & Variables.md",
+    "Scripts/Lecture 1 Scripts/meal.py",
+    "Notes/Lecture 1 Notes/Math Interpreter.md",
+    "Scripts/Lecture 1 Scripts/interpreter.py",
+    "Notes/Lecture 1 Notes/File Extensions.md",
+    "Scripts/Lecture 1 Scripts/extensions.py",
+    "Notes/Lecture 1 Notes/Home Federal Savings Bank.md",
+    "Scripts/Lecture 1 Scripts/bank.py",
+    "Notes/Lecture 1 Notes/Deep Thought.md",
+    "Scripts/Lecture 1 Scripts/deep.py",
+    "Notes/Lecture 1 Notes/Conditionals (short).md",
+    "Notes/Lecture 0 Notes/Get Started in VS Code.md",
+    "Notes/Lecture 0 Notes/Variables.md",
+    "Notes/Lecture 0 Notes/Functions.md",
+    "Scripts/Lecture 1 Scripts/lecture1.py",
+    "Scripts/Lecture 0 Scripts/lecture0.py",
+    "Scripts/Lecture 0 Scripts/lecture0_supplemental.py",
+    "Scripts/lecture0.py",
+    "Scripts/lecture0_supplemental.py",
+    "Conditionals.md",
+    "Notes/Lecture 1 Notes/Problem Set 1.md",
+    "images/Pasted image 20250526080347.png",
+    "images/Pasted image 20250526080331.png",
+    "images/Pasted image 20250526080315.png",
+    "images/Pasted image 20250526080250.png",
+    "Pasted image 20250526080347.png",
+    "Pasted image 20250526080331.png",
+    "Pasted image 20250526080315.png",
+    "Pasted image 20250526080250.png",
+    "Boolean Expressions.md",
+    "Problem Set 1.md",
+    "Conditionals (short).md",
+    "Notes/Lecture 0 Notes/Visual Studio Code for CS50.md",
+    "Notes/Lecture 0 Notes/String Methods.md"
   ]
 }
