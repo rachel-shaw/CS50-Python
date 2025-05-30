@@ -6,7 +6,7 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-```
+```python
 SHOWS = [
 	" Avatar: the last airbender",
 	"Ben 10",

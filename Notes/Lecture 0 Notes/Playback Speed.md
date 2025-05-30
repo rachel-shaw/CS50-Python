@@ -84,3 +84,17 @@ In your terminal, execute the below to submit your work.
 ```
 submit50 cs50/problems/2022/python/playback
 ```
+
+
+### ANSWER
+```python
+"""
+GOAL:
+- Implement a program that prompts the user for input
+- Then outputs that same input, replacing each space with ...
+"""
+
+phrase = input("")
+
+print(phrase.replace(" ", "..."))
+```

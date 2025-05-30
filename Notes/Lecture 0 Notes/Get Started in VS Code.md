@@ -24,6 +24,7 @@
 - **Annotate**: Command (⌘) + /
 - **Comments**: """ instead of #
 - Tab to finish typing
+- Control + C to exit action in terminal if stuck
 
 
 ### Code Language

@@ -6,9 +6,3 @@
 4. Log into [cs50.dev](https://cs50.dev/), which is a cloud-based version of Visual Studio Code (VS Code) that provides you with your very own “codespace” with everything that you need for the course pre-installed. No need to download and install VS Code or Python on your own Mac or PC! If not already familiar, be sure to watch the [Visual Studio Code for CS50 Short](https://cs50.harvard.edu/python/2022/shorts/visual_studio_code_for_cs50/) for a full overview.
 5. Once your codespace has loaded, close any **Welcome** tabs that might have opened by default
 6. Execute `update50` in your codespace’s terminal window to ensure that your codespace is up-to-date; if prompted, click **Rebuild now**.
-7. Submit all of the problems below:
-    - [[Indoor Voice]]
-    - [[Playback Speed]]
-    - [[Making Faces]]
-    - [[Einstein]]
-    - [[Tip Calculator]]

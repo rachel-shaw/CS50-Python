@@ -6,7 +6,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen></iframe>
 
 
-```
+```python
 ### GOAL: recommend games based on difficulty and number of players
 
 def main():

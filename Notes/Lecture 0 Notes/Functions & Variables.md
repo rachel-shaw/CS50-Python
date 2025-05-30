@@ -33,7 +33,7 @@ allowfullscreen></iframe>
 - We can personalize your first Python program.
 - In our text editor in `hello.py` we can add another function. `input` is a function that takes a prompt as an argument. We can edit our code to say
     
-    ```
+    ```python
     input("What's your name? ")
     print("hello, world")
     ```
@@ -45,7 +45,7 @@ allowfullscreen></iframe>
 - A variable is just a container for a value within your own program.
 - In your program, you can introduce your own variable in your program by editing it to read
     
-    ```
+    ```python
     name = input("What's your name? ")
     print("hello, world")
     ```
@@ -54,7 +54,7 @@ allowfullscreen></iframe>
     
 - If you edit your code as follows, you will notice an error
     
-    ```
+    ```python
     name = input("What's your name? ")
     print("hello, name")
     ```
@@ -62,7 +62,7 @@ allowfullscreen></iframe>
 - The program will return `hello, name` in the terminal window regardless of what the user types.
 - Further editing our code, you could type
     
-    ```
+    ```python
     name = input("What's your name? ")
     print("hello,")
     print(name)
@@ -70,7 +70,7 @@ allowfullscreen></iframe>
     
 - The result in the terminal window would be
     
-    ```
+    ```python
     What's your name? David
     hello
     David
@@ -85,7 +85,7 @@ allowfullscreen></iframe>
 - Comments are a way for programmers to track what they are doing in their programs and even inform others about their intentions for a block of code. In short, they are notes for yourself and others who will see your code!
 - You can add comments to your program to be able to see what it is that your program is doing. You might edit your code as follows:
     
-    ```
+    ```python
     # Ask the user for their name
     name = input("What's your name? ")
     print("hello,")
@@ -98,7 +98,7 @@ allowfullscreen></iframe>
 
 - Pseudocode is an important type of comment that becomes a special type of to-do list, especially when you don’t understand how to accomplish a coding task. For example, in your code, you might edit your code to say:
     
-    ```
+    ```python
     # Ask the user for their name
     name = input("What's your name? ")
     
@@ -114,7 +114,7 @@ allowfullscreen></iframe>
 
 - We can further edit our code as follows:
     
-    ```
+    ```python
     # Ask the user for their name
     name = input("What's your name? ")
     
@@ -125,7 +125,7 @@ allowfullscreen></iframe>
 - It turns out that some functions take many arguments.
 - We can use a comma `,` to pass in multiple arguments by editing our code as follows:
     
-    ```
+    ```python
     # Ask the user for their name
     name = input("What's your name? ")
     
@@ -141,7 +141,7 @@ allowfullscreen></iframe>
 - A string, known as a `str` in Python, is a sequence of text.
 - Rewinding a bit in our code back to the following, there was a visual side effect of having the result appear on multiple lines:
     
-    ```
+    ```python
     # Ask the user for their name
     name = input("What's your name? ")
     print("hello,")
@@ -155,7 +155,7 @@ allowfullscreen></iframe>
 - However, we can technically provide an argument for `end` ourselves such that a new line is not created!
 - We can modify our code as follows:
     
-    ```
+    ```python
     # Ask the user for their name
     name = input("What's your name? ")
     print("hello,", end="") 
@@ -179,7 +179,7 @@ allowfullscreen></iframe>
 
 - Probably the most elegant way to use strings would be as follows:
     
-    ```
+    ```python
     # Ask the user for their name
     name = input("What's your name? ")
     print(f"hello, {name}")
@@ -194,7 +194,7 @@ allowfullscreen></iframe>
 - It turns out that built into strings is the ability to remove whitespace from a string.
 - By utilizing the method `strip` on `name` as `name = name.strip()`, will strip all the whitespaces on the left and right of the users input. You can modify your code to be:
     
-    ```
+    ```python
     # Ask the user for their name
     name = input("What's your name? ")
     
@@ -209,7 +209,7 @@ allowfullscreen></iframe>
     
 - Using the `title` method, it would title case the user’s name:
     
-    ```
+    ```python
     # Ask the user for their name
     name = input("What's your name? ")
     
@@ -226,7 +226,7 @@ allowfullscreen></iframe>
 - By this point, you might be very tired of typing `python` repeatedly in the terminal window. You cause use the up arrow of your keyboard to recall the most recent terminal commands you have made.
 - Notice that you can modify your code to be more efficient:
     
-    ```
+    ```python
     # Ask the user for their name
     name = input("What's your name? ")
     
@@ -241,7 +241,7 @@ allowfullscreen></iframe>
     
 - We could even go further!
     
-    ```
+    ```python
     # Ask the user for their name, remove whitespace from the str and capitalize the first letter of each word
     name = input("What's your name? ").strip().title()
     
@@ -251,7 +251,7 @@ allowfullscreen></iframe>
 
 - You can also split the name into two, the first and last name but seperating on the space
 
-    ```
+    ```python
     # Ask the user for their name, remove whitespace from the str and capitalize the first letter of each word
     name = input("What's your name? ").strip().title()
     
@@ -275,7 +275,7 @@ allowfullscreen></iframe>
 - Opening up VS Code again, we can type `code calculator.py` in the terminal. This will create a new file in which we will create our own calculator.
 - First, we can declare a few variables.
     
-    ```
+    ```python
     x = 1
     y = 2
     
@@ -286,7 +286,7 @@ allowfullscreen></iframe>
     
     Naturally, when we run `python calculator.py` we get the result in the terminal window of `3`. We can make this more interactive using the `input` function.
     
-    ```
+    ```python
     x = input("What's x? ")
     y = input("What's y? ")
     
@@ -298,7 +298,7 @@ allowfullscreen></iframe>
 - Running this program, we discover that the output is incorrect as `12`. Why might this be?
 - Prior, we have seen how the `+` sign concatenates two strings. Because your input from your keyboard on your computer comes into the interpreter as text, it is treated as a string. We, therefore, need to convert this input from a string to an integer. We can do so as follows:
     
-    ```
+    ```python
     x = input("What's x? ")
     y = input("What's y? ")
     
@@ -311,7 +311,7 @@ allowfullscreen></iframe>
     
 - We can further improve our program as follows:
     
-    ```
+    ```python
     x = int(input("What's x? "))
     y = int(input("What's y? "))
     
@@ -332,7 +332,7 @@ allowfullscreen></iframe>
 - A floating point value is a real number that has a decimal point in it, such as `0.52`.
 - You can change your code to support floats as follows:
     
-    ```
+    ```python
     x = float(input("What's x? "))
     y = float(input("What's y? "))
     
@@ -343,7 +343,7 @@ allowfullscreen></iframe>
     
 - Let’s imagine, however, that you want to round the total to the nearest integer. Looking at the Python documentation for `round`, you’ll see that the available arguments are `round(number[n, ndigits])`. Those square brackets indicate that something optional can be specified by the programmer. Therefore, you could do `round(n)` to round a digit to its nearest integer. Alternatively, you could code as follows:
     
-    ```
+    ```python
     # Get the user's input
     x = float(input("What's x? "))
     y = float(input("What's y? "))
@@ -359,7 +359,7 @@ allowfullscreen></iframe>
     
 - What if we wanted to format the output of long numbers? For example, rather than seeing `1000`, you may wish to see `1,000`. You could modify your code as follows:
     
-    ```
+    ```python
     # Get the user's input
     x = float(input("What's x? "))
     y = float(input("What's y? "))
@@ -378,7 +378,7 @@ allowfullscreen></iframe>
 
 - How can we round floating point values? First, modify your code as follows:
     
-    ```
+    ```python
     # Get the user's input
     x = float(input("What's x? "))
     y = float(input("What's y? "))
@@ -394,7 +394,7 @@ allowfullscreen></iframe>
     
 - Let’s imagine that we want to round this down. We could modify our code as follows:
     
-    ```
+    ```python
     # Get the user's input
     x = float(input("What's x? "))
     y = float(input("What's y? "))
@@ -410,7 +410,7 @@ allowfullscreen></iframe>
     
 - We could also use `fstring` to format the output as follows:
     
-    ```
+    ```python
     # Get the user's input
     x = float(input("What's x? "))
     y = float(input("What's y? "))
@@ -432,7 +432,7 @@ allowfullscreen></iframe>
 - Wouldn’t it be nice to create our own functions?
 - Let’s bring back our final code of `hello.py` by typing `code hello.py` into the terminal window. Your starting code should look as follows:
     
-    ```
+    ```python
     # Ask the user for their name, remove whitespace from the str and capitalize the first letter of each word
     name = input("What's your name? ").strip().title()
     
@@ -444,7 +444,7 @@ allowfullscreen></iframe>
     
 - Erasing all our code in our text editor, let’s start from scratch:
     
-    ```
+    ```python
     name = input("What's your name? ")
     hello()
     print(name)
@@ -454,7 +454,7 @@ allowfullscreen></iframe>
     
 - We can create our own function called `hello` as follows:
     
-    ```
+    ```python
     def hello():
         print("hello")
     
@@ -468,7 +468,7 @@ allowfullscreen></iframe>
     
 - We can further improve our code:
     
-    ```
+    ```python
     
     # Create our own function
     def hello(to):
@@ -484,7 +484,7 @@ allowfullscreen></iframe>
     
 - We can change our code to add a default value to `hello`:
     
-    ```
+    ```python
     # Create our own function
     def hello(to="world"):
         print("hello,", to)
@@ -502,7 +502,7 @@ allowfullscreen></iframe>
     
 - We don’t have to have our function at the start of our program. We can move it down, but we need to tell the interpreter that we have a `main` function and a separate `hello` function.
     
-    ```
+    ```python
     def main():
     
         # Output using our own function
@@ -522,7 +522,7 @@ allowfullscreen></iframe>
     
 - The following very small modification will call the `main` function and restore our program to working order:
     
-    ```
+    ```python
     def main():
     
         # Output using our own function
@@ -547,7 +547,7 @@ allowfullscreen></iframe>
 - You can imagine many scenarios where you don’t just want a function to perform an action but also to return a value back to the main function. For example, rather than simply printing the calculation of `x + y`, you may want a function to return the value of this calculation back to another part of your program. This “passing back” of a value we call a `return` value.
 - Returning to our `calculator.py` code by typing `code calculator.py`. Erase all code there. Rework the code as follows:
     
-    ```
+    ```python
     def main():
         x = int(input("What's x? "))
         print("x squared is", square(x))

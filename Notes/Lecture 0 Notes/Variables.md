@@ -8,7 +8,7 @@ allowfullscreen></iframe>
 
 ### Variable types
 - when using `input("Enter a guess: ")`, this grabs a string. Need int in front if you want an integer
-```
+```python
 def get_guess():
 	guess = int(input("Enter a guess: "))
 	return guess

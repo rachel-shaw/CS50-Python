@@ -12,7 +12,7 @@ allowfullscreen></iframe>
 	- it is **accessible** but not **modifiable** unless call global in function
 - *local variable* = phase because stuck in "say" function
 
-```
+```python
 emoticon = "v.v"
 
 

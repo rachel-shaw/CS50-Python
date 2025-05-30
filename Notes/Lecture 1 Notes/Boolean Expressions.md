@@ -5,7 +5,7 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-```
+```python
 ### GOAL: clean code from Conditionals (short) video
 def main():
 	difficulty = input("Difficult or Causal? ")

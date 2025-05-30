@@ -7,7 +7,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen></iframe>
 
 ### Def main():
-```
+```python
 def main():
 	print("Hello, world!")
 	print("This is CS50P.")

@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5512bf3e7ab99fa8",
+            "id": "9fae2215a4305e51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Lecture 1 Notes/Problem Set 1.md",
+                "file": "Table of Contents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Problem Set 1"
+              "title": "Table of Contents"
             }
           },
           {
-            "id": "288c6c873e4803e0",
+            "id": "7b80a9214edc2657",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Lecture 1 Notes/Boolean Expressions.md",
+                "file": "Notes/Lecture 2 Notes/Dictionary Methods.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Boolean Expressions"
+              "title": "Dictionary Methods"
             }
           }
         ]
@@ -180,42 +180,48 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5512bf3e7ab99fa8",
+  "active": "9fae2215a4305e51",
   "lastOpenFiles": [
-    "Notes/Lecture 1 Notes/Meal Time.md",
-    "Notes/Lecture 0 Notes/Problem Set 0.md",
-    "Notes/Lecture 0 Notes/Tip Calculator.md",
-    "Notes/Lecture 0 Notes/Einstein.md",
-    "Notes/Lecture 0 Notes/Making Faces.md",
-    "Notes/Lecture 0 Notes/Playback Speed.md",
-    "Notes/Lecture 0 Notes/Indoor Voice.md",
-    "Notes/Lecture 1 Notes/Boolean Expressions.md",
+    "Notes/Lecture 2 Notes/Nutrition Facts.md",
+    "Notes/Lecture 2 Notes/Dictionary Methods.md",
+    "Scripts/Lecture 2 Scripts/nutrition.py",
     "Table of Contents.md",
-    "Notes/Lecture 1 Notes/Conditionals.md",
-    "Notes/Lecture 0 Notes/Functions & Variables.md",
-    "Scripts/Lecture 1 Scripts/meal.py",
-    "Notes/Lecture 1 Notes/Math Interpreter.md",
-    "Scripts/Lecture 1 Scripts/interpreter.py",
-    "Notes/Lecture 1 Notes/File Extensions.md",
-    "Scripts/Lecture 1 Scripts/extensions.py",
-    "Notes/Lecture 1 Notes/Home Federal Savings Bank.md",
-    "Scripts/Lecture 1 Scripts/bank.py",
+    "Notes/Lecture 2 Notes/Dictionaries.md",
+    "Notes/Lecture 2 Notes/camelCase.md",
+    "Notes/Lecture 2 Notes/Just setting up my twttr.md",
+    "Notes/Lecture 2 Notes/Vanity Plates.md",
+    "Notes/Lecture 2 Notes/String Slicing.md",
+    "Notes/Lecture 2 Notes/Loops.md",
+    "Notes/Lecture 2 Notes/For Loops.md",
+    "Scripts/Lecture 2 Scripts/plates.py",
+    "Notes/Lecture 0 Notes/String Methods.md",
+    "Notes/Lecture 2 Notes/Lists.md",
     "Notes/Lecture 1 Notes/Deep Thought.md",
-    "Scripts/Lecture 1 Scripts/deep.py",
-    "Notes/Lecture 1 Notes/Conditionals (short).md",
-    "Notes/Lecture 0 Notes/Get Started in VS Code.md",
-    "Notes/Lecture 0 Notes/Variables.md",
-    "Notes/Lecture 0 Notes/Functions.md",
-    "Scripts/Lecture 1 Scripts/lecture1.py",
-    "Scripts/Lecture 0 Scripts/lecture0.py",
-    "Scripts/Lecture 0 Scripts/lecture0_supplemental.py",
-    "Scripts/lecture0.py",
-    "Scripts/lecture0_supplemental.py",
-    "Conditionals.md",
-    "Notes/Lecture 1 Notes/Problem Set 1.md",
+    "Notes/Lecture 0 Notes/Making Faces.md",
+    "Scripts/Lecture 2 Scripts/twttr.py",
+    "Notes/Lecture 2 Notes/While Loops.md",
+    "Notes/Lecture 2 Notes/Coke Machine.md",
+    "Scripts/Lecture 2 Scripts/coke.py",
+    "Notes/Lecture 0 Notes/Indoor Voice.md",
+    "Notes/Lecture 0 Notes/Playback Speed.md",
+    "Notes/Lecture 0 Notes/Einstein.md",
+    "Notes/Lecture 0 Notes/Tip Calculator.md",
+    "Notes/Lecture 1 Notes/Home Federal Savings Bank.md",
+    "Notes/Lecture 1 Notes/File Extensions.md",
+    "Notes/Lecture 1 Notes/Math Interpreter.md",
+    "Notes/Lecture 1 Notes/Meal Time.md",
+    "Scripts/Lecture 2 Scripts/camel.py",
+    "Scripts/Lecture 2 Scripts/__pycache__/soil.cpython-312.pyc",
+    "Scripts/Lecture 2 Scripts/soil.py",
+    "Scripts/Lecture 2 Scripts/src2/water2.py",
+    "Scripts/Lecture 2 Scripts/src2/water1.py",
+    "Scripts/Lecture 2 Scripts/src2/water0.py",
+    "Notes/Lecture 2 Notes/Tuples.md",
+    "images/Pasted image 20250526202350.png",
     "images/Pasted image 20250526080347.png",
     "images/Pasted image 20250526080331.png",
     "images/Pasted image 20250526080315.png",
@@ -223,11 +229,6 @@
     "Pasted image 20250526080347.png",
     "Pasted image 20250526080331.png",
     "Pasted image 20250526080315.png",
-    "Pasted image 20250526080250.png",
-    "Boolean Expressions.md",
-    "Problem Set 1.md",
-    "Conditionals (short).md",
-    "Notes/Lecture 0 Notes/Visual Studio Code for CS50.md",
-    "Notes/Lecture 0 Notes/String Methods.md"
+    "Pasted image 20250526080250.png"
   ]
 }

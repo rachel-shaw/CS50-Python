@@ -1,0 +1,26 @@
+.theme-light {
+  --code-python-color1: #ffde57; /* e.g., Python yellow */
+  --code-python-color2: #4584b6; /* e.g., Python blue */
+  --code-python-color3: #646464; /* e.g., Python grey */
+}
+
+.theme-dark {
+  --code-python-color1: #ffd137; /* e.g., Ayu yellow */
+  --code-python-color2: #73d0ff; /* e.g., Ayu blue */
+   --code-python-color3: #95e6cb; /* e.g., Ayu cyan */
+}
+
+.token.keyword.language-python {
+  color: var(--code-python-color1) !important;
+}
+
+.token.function.language-python {
+  color: var(--code-python-color2) !important;
+}
+
+.token.comment.language-python,
+.token.punctuation.language-python {
+  color: var(--code-python-color3) !important;
+}
+
+/* Add more token types as needed */

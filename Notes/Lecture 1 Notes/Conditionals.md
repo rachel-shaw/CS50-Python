@@ -22,7 +22,7 @@ allowfullscreen></iframe>
 - In your terminal window, type `code compare.py`. This will create a brand new file called “compare.”
 - In the text editor window, begin with the following:
     
-    ```
+    ```python
     x = int(input("What's x? "))
     y = int(input("What's y? "))
     
@@ -38,7 +38,7 @@ allowfullscreen></iframe>
 
 - Further revise your code as follows:
     
-    ```
+    ```python
     x = int(input("What's x? "))
     y = int(input("What's y? "))
     
@@ -57,7 +57,7 @@ allowfullscreen></iframe>
     ![[Pasted image 20250526080250.png]]
 - This program can be improved by not asking three consecutive questions. After all, not all three questions can have an outcome of `true`! Revise your program as follows:
     
-    ```
+    ```python
     x = int(input("What's x? "))
     y = int(input("What's y? "))
     
@@ -78,7 +78,7 @@ allowfullscreen></iframe>
 - While your computer may not notice a difference speed-wise between our first program and this revised program, consider how an online server running billions or trillions of these types of calculations each day could definitely be impacted by such a small coding decision.
 - There is one final improvement we can make to our program. Notice how logically `elif x == y` is not a necessary evaluation to run. After all, if logically x is not less than y AND x is not greater than y, x MUST equal y. Therefore, we don’t have to run `elif x == y`. We can create a “catch-all,” default outcome using an `else` statement. We can revise as follows:
     
-    ```
+    ```python
     x = int(input("What's x? "))
     y = int(input("What's y? "))
     
@@ -100,7 +100,7 @@ allowfullscreen></iframe>
 
 - `or` allows your program to decide between one or more alternatives. For example, we could further edit our program as follows:
     
-    ```
+    ```python
     x = int(input("What's x? "))
     y = int(input("What's y? "))
     
@@ -114,7 +114,7 @@ allowfullscreen></iframe>
     
 - At this point, our code is pretty great. However, could the design be further improved? We could further edit our code as follows:
     
-    ```
+    ```python
     x = int(input("What's x? "))
     y = int(input("What's y? "))
     
@@ -128,7 +128,7 @@ allowfullscreen></iframe>
     
 - For the purpose of illustration, we could also change our code as follows:
     
-    ```
+    ```python
     x = int(input("What's x? "))
     y = int(input("What's y? "))
     
@@ -149,7 +149,7 @@ allowfullscreen></iframe>
 - Similar to `or`, `and` can be used within conditional statements.
 - Execute in the terminal window `code grade.py`. Start your new program as follows:
     
-    ```
+    ```python
     score = int(input("Score: "))
     
     if score >= 90 and score <= 100:
@@ -168,7 +168,7 @@ allowfullscreen></iframe>
     
 - Typically, we do not want to ever trust our users to input the correct information. We could improve our code as follows:
     
-    ```
+    ```python
       score = int(input("Score: "))
     
       if 90 <= score <= 100:
@@ -187,7 +187,7 @@ allowfullscreen></iframe>
     
 - Still, we can further improve our program:
     
-    ```
+    ```python
     score = int(input("Score: "))
     
     if score >= 90:
@@ -213,7 +213,7 @@ allowfullscreen></iframe>
 - For example, 4 % 2 would result in zero, because it evenly divides. However, 3 % 2 does not divide evenly and would result in a number other than zero!
 - In the terminal window, create a new program by typing `code parity.py`. In the text editor window, type your code as follows:
     
-    ```
+    ```python
     x = int(input("What's x? "))
     
     if x % 2 == 0:
@@ -230,7 +230,7 @@ allowfullscreen></iframe>
 - As discussed in Lecture 0, you will find it useful to create a function of your own!
 - We can create our own function to check whether a number is even or odd. Adjust your code as follows:
     
-    ```
+    ```python
     def main():
         x = int(input("What's x? "))
         if is_even(x):
@@ -256,7 +256,7 @@ allowfullscreen></iframe>
 
 - In the programming world, there are types of programming that are called “Pythonic” in nature. That is, there are ways to program that are sometimes only seen in Python programming. Consider the following revision to our program:
     
-    ```
+    ```python
     def main():
         x = int(input("What's x? "))
         if is_even(x):
@@ -276,7 +276,7 @@ allowfullscreen></iframe>
     
 - We can further revise our code and make it more and more readable:
     
-    ```
+    ```python
     def main():
         x = int(input("What's x? "))
         if is_even(x):
@@ -300,7 +300,7 @@ allowfullscreen></iframe>
 - Similar to `if`, `elif`, and `else` statements, `match` statements can be used to conditionally run code that matches certain values.
 - Consider the following program:
     
-    ```
+    ```python
       name = input("What's your name? ")
     
       if name == "Harry":
@@ -319,7 +319,7 @@ allowfullscreen></iframe>
     
 - We can improve this code slightly with the use of the `or` keyword:
     
-    ```
+    ```python
       name = input("What's your name? ")
     
       if name == "Harry" or name == "Hermione" or name == "Ron": 
@@ -334,7 +334,7 @@ allowfullscreen></iframe>
     
 - Alternatively, we can use `match` statements to map names to houses. Consider the following code:
     
-    ```
+    ```python
       name = input("What's your name? ")
     
       match name: 
@@ -355,7 +355,7 @@ allowfullscreen></iframe>
 - A match statement compares the value following the `match` keyword with each of the values following the `case` keywords. In the event a match is found, the respective indented code section is executed, and the program stops the matching.
 - We can improve the code:
     
-    ```
+    ```python
       name = input("What's your name? ")
     
       match name: 

@@ -41,7 +41,7 @@ code indoor.py
 to make a file called `indoor.py` where you’ll write your program.
 
 ## [Demo](https://cs50.harvard.edu/python/2022/psets/0/indoor/#demo)
-```
+```python
 $ python indoor.py
 HELLO, WORLD
 hello, world
@@ -72,4 +72,23 @@ In your terminal, execute the below to submit your work.
 
 ```
 submit50 cs50/problems/2022/python/indoor
+```
+
+
+### ANSWER
+```python
+"""
+GOAL:
+- Implement a program that prompts the user for input and then outputs that same input in lowercase.
+- Punctuation and whitespace should remain unchanged.
+- Prompt the user explicitily by passing a str of your on as an argument to input
+"""
+
+# Ask the user for their name
+name = input("")
+
+#change answer to lowercase
+name = name.lower()
+
+print(name)
 ```

@@ -1,3 +1,8 @@
 {
-  "cssTheme": "Ebullientworks"
+  "cssTheme": "Ebullientworks",
+  "accentColor": "",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "python-code-colors"
+  ]
 }
