@@ -38,9 +38,12 @@
 
 ### Lecture 3: Exceptions
 
-| Lecture 3 Notes | Supplemental Videos | Problem Set 3 |
-| --------------- | ------------------- | ------------- |
-|                 |                     |               |
+| Lecture 3 Notes | Supplemental Videos     | Problem Set 3         |
+| --------------- | ----------------------- | --------------------- |
+| [[Exceptions]]  | [[Debugging]]           | [[Fuel Gauge]]        |
+|                 | [[Handling Exceptions]] | [[Felipe's Taqueria]] |
+|                 | [[Raising Exceptions]]  | [[Grocery List]]      |
+|                 |                         | [[Outdated]]          |
 
 
 
