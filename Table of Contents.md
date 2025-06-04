@@ -49,9 +49,14 @@
 
 ### Lecture 4: Libraries
 
-| Lecture 4 Notes | Supplemental Videos | Problem Set 4 |
-| --------------- | ------------------- | ------------- |
-|                 |                     |               |
+| Lecture 4 Notes | Supplemental Videos               | Problem Set 4                      |
+| --------------- | --------------------------------- | ---------------------------------- |
+| [[Libraries]]   | [[API Calls]]                     | [[Emojize]]                        |
+|                 | [[Creating Modules and Packages]] | [[Frank, Ian, and Glen's Letters]] |
+|                 | [[random]]                        | [[Adieu, Adieu]]                   |
+|                 | [[Style]]                         | [[Guessing Game]]                  |
+|                 |                                   | [[Little Professor]]               |
+|                 |                                   | [[Bitcoin Price Index]]            |
 
 
 
