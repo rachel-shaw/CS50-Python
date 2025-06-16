@@ -21,7 +21,7 @@ allowfullscreen></iframe>
 - Inside the `random` module, there is a built-in function called `random.choice(seq)`. `random` is the module you are importing. Inside that module, there is the `choice` function. That function takes into it a `seq` or sequence that is a list.
 - In your terminal window type `code generate.py`. In your text editor, code as follows:
     
-    ```
+    ```python
     import random
     
     coin = random.choice(["heads", "tails"])
@@ -32,7 +32,7 @@ allowfullscreen></iframe>
     
 - We can improve our code. `from` allows us to be very specific about what we’d like to import. Prior, our `import` line of code is bringing the entire contents of the functions of `random`. However, what if we want to only load a small part of a module? Modify your code as follows:
     
-    ```
+    ```python
     from random import choice
     
     coin = choice(["heads", "tails"])
@@ -43,7 +43,7 @@ allowfullscreen></iframe>
     
 - Moving on, consider the function `random.randint(a, b)`. This function will generate a random number between `a` and `b`. Modify your code as follows:
     
-    ```
+    ```python
     import random
     
     number = random.randint(1, 10)
@@ -54,7 +54,7 @@ allowfullscreen></iframe>
     
 - We can introduce the function `random.shuffle(x)`, which shuffles a list into a random order.
     
-    ```
+    ```python
     import random
     
     cards = ["jack", "queen", "king"]
@@ -74,7 +74,7 @@ allowfullscreen></iframe>
 - Python comes with a built-in `statistics` library. How might we use this module?
 - `mean` is a function of this library that is quite useful. In your terminal window, type `code average.py`. In the text editor window, modify your code as follows:
     
-    ```
+    ```python
     import statistics
     
     print(statistics.mean([100, 90]))
@@ -92,7 +92,7 @@ allowfullscreen></iframe>
 - `argv` is a list within the `sys` module that records what the user typed on the command line.
 - Notice how you will see `sys.argv` utilized in the code below. In the terminal window, type `code name.py`. In the text editor, code as follows:
     
-    ```
+    ```python
     import sys
     
     print("hello, my name is", sys.argv[1])
@@ -102,7 +102,7 @@ allowfullscreen></iframe>
     
 - There is a small problem with our program as it stands. What if the user does not type in the name at the command line? Try it yourself. Type `python name.py` into the terminal window. An error `list index out of range` will be presented by the interpreter. The reason for this is that there is nothing at `sys.argv[1]` because nothing was typed! Here’s how we can protect our program from this type of error:
     
-    ```
+    ```python
     import sys
     
     try:
@@ -115,7 +115,7 @@ allowfullscreen></iframe>
     
 - Our program can be improved as follows:
     
-    ```
+    ```python
     import sys
     
     if len(sys.argv) < 2:
@@ -130,7 +130,7 @@ allowfullscreen></iframe>
     
 - Right now, our code is logically correct. However, there is something very nice about keeping our error checking separate from the remainder of our code. How could we separate out our error handling? Modify your code as follows:
     
-    ```
+    ```python
     import sys
     
     if len(sys.argv) < 2:
@@ -149,7 +149,7 @@ allowfullscreen></iframe>
 
 - `slice` is a command that allows us to take a `list` and tell the interpreter where we want the interpreter to consider the start of the `list` and the end of the `list`. For example, modify your code as follows:
     
-    ```
+    ```python
     import sys
     
     if len(sys.argv) < 2:
@@ -163,7 +163,7 @@ allowfullscreen></iframe>
     
 - `slice` can be employed in our code to start the list somewhere different! Modify your code as follows:
     
-    ```
+    ```python
     import sys
     
     if len(sys.argv) < 2:
@@ -185,7 +185,7 @@ allowfullscreen></iframe>
 - In the terminal window, you can install the `cowsay` package by typing `pip install cowsay`. After a bit of output, you can now go about using this package in your code.
 - In your terminal window type `code say.py`. In the text editor, code as follows:
     
-    ```
+    ```python
     import cowsay
     import sys
     
@@ -197,7 +197,7 @@ allowfullscreen></iframe>
     
 - Further modify your code:
     
-    ```
+    ```python
     import cowsay
     import sys
     
@@ -219,7 +219,7 @@ allowfullscreen></iframe>
 - The format in the downloaded text file is called JSON, a text-based format that is used to exchange text-based data between applications. Literally, Apple is providing a JSON file that we could interpret in our own Python program.
 - In the terminal window, type `code itunes.py`. Code as follows:
     
-    ```
+    ```python
     import requests
     import sys
     
@@ -234,7 +234,7 @@ allowfullscreen></iframe>
     
 - It turns out that Python has a built-in JSON library that can help us interpret the data received. Modify your code as follows:
     
-    ```
+    ```python
     import json
     import requests
     import sys
@@ -250,7 +250,7 @@ allowfullscreen></iframe>
     
 - How could we simply output the name of just that track name? Modify your code as follows:
     
-    ```
+    ```python
     import json
     import requests
     import sys
@@ -276,7 +276,7 @@ allowfullscreen></iframe>
 - Imagine situations where you may want to re-use bits of code time and time again or even share them with others!
 - We have been writing lots of code to say “hello” so far in this course. Let’s create a package to allow us to say “hello” and “goodbye”. In your terminal window, type `code sayings.py`. In the text editor, code as follows:
     
-    ```
+    ```python
     def hello(name):
         print(f"hello, {name}")
     
@@ -294,7 +294,7 @@ allowfullscreen></iframe>
     
 - Let’s see how we could implement code utilizing this package that we created. In the terminal window, type `code say.py`. In this new file in your text editor, type the following:
     
-    ```
+    ```python
     import sys
     
     from sayings import goodbye

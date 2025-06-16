@@ -8,7 +8,7 @@ If, though, `X` or `Y` is not an integer, `X` is greater than `Y`, or `Y
 - Recall that a `str` comes with quite a few methods, per [docs.python.org/3/library/stdtypes.html#string-methods](https://docs.python.org/3/library/stdtypes.html#string-methods), including `split`.
 - Note that you can handle two exceptions separately with code like:
     
-    ```
+    ```python
     try:
         ...
     except ValueError:
@@ -19,7 +19,7 @@ If, though, `X` or `Y` is not an integer, `X` is greater than `Y`, or `Y
     
     Or you can handle two exceptions together with code like:
     
-    ```
+    ```python
     try:
         ...
     except (ValueError, ZeroDivisionError):

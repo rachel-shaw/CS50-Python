@@ -5,7 +5,7 @@ In a file called `grocery.py`, implement a program that prompts the user for it
 #### Hints
 - Note that you can detect when the user has inputted control-d by catching an [`EOFError`](https://docs.python.org/3/library/exceptions.html#EOFError) with code like:
     
-    ```
+    ```python
     try:
         item = input()
     except EOFError:
@@ -15,13 +15,13 @@ In a file called `grocery.py`, implement a program that prompts the user for it
 - Odds are you’ll want to store your grocery list as a `dict`.
 - Note that a `dict` comes with quite a few methods, per [docs.python.org/3/library/stdtypes.html#mapping-types-dict](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict), among them `get`, and supports operations like:
     
-    ```
+    ```python
     d[key]
     ```
     
     and
     
-    ```
+    ```python
     if key in d:
         ...
     ```
@@ -161,7 +161,7 @@ def create_dict():
 				else:
 					grocerylist[item] = 1
 		except EOFError:
-		break
+			break
 	
 	return grocerylist
 

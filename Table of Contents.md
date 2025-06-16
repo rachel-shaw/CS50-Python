@@ -63,19 +63,24 @@
 
 ### Lecture 5: Unit Tests
 
-| Lecture 5 Notes | Supplemental Videos | Problem Set 5 |
-| --------------- | ------------------- | ------------- |
-|                 |                     |               |
-
+| Lecture 5 Notes | Supplemental Videos | Problem Set 5                    |
+| --------------- | ------------------- | -------------------------------- |
+| [[Unit Tests]]  | [[Pytest]]          | [[Testing my twttr]]             |
+|                 |                     | [[Back to the Bank]]             |
+|                 |                     | [[Re-requesting a Vanity Plate]] |
+|                 |                     | [[Refueling]]                    |
 
 
 
 
 ### Lecture 6: File I/O
 
-| Lecture 6 Notes | Supplemental Videos | Problem Set 6 |
-| --------------- | ------------------- | ------------- |
-|                 |                     |               |
+| Lecture 6 Notes | Supplemental Videos           | Problem Set 6     |
+| --------------- | ----------------------------- | ----------------- |
+| [[File IO]]     | [[Pillow]]                    | [[Lines of Code]] |
+|                 | [[Reading and Writing CSVs]]  | [[Pizza Py]]      |
+|                 | [[Reading and Writing Files]] | [[Scourgify]]     |
+|                 |                               | [[CS50 P-Shirt]]  |
 
 
 

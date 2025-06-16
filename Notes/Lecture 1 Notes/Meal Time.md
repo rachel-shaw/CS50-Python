@@ -4,7 +4,7 @@ In `meal.py`, implement a program that prompts the user for a time and outputs 
 
 Structure your program per the below, wherein `convert` is a function (that can be called by `main`) that converts `time`, a `str` in 24-hour format, to the corresponding number of hours as a `float`. For instance, given a `time` like `"7:30"` (i.e., 7 hours and 30 minutes), `convert` should return `7.5` (i.e., 7.5 hours).
 
-```
+```python
 def main():
     ...
 

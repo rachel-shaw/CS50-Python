@@ -138,3 +138,179 @@ Make your own library
 
 ## otherwise will run main wihin library
 ## this way it will only run main if file name being called at command line (python lecture4.py), main will not get called
+
+
+
+
+
+"""""""""""
+Supplemental Videos
+"""""""""""
+
+"""
+API Calls
+"""
+# import requests
+
+# def main():
+#     print("Search the Art Institute of Chicago!")
+#     artist = input("Artist: ")
+#     try:
+#         response = requests.get(
+#             "https://api.artic.edu/api/v1/artworks/search",
+#             {"q": artist} #from museum documentation
+#         )
+#         # print(response) #200 means api connected correctly
+#         response.raise_for_status()
+#     except requests.HTTPError:
+#         print("Couldn't complete API request")
+#         return
+    
+#     content = response.json()
+#     for artwork in content["data"]: #content[data] from museum documentation
+#         print(f"- {artwork['title']}") #artwork[title] from museum documentation
+
+# main()
+
+
+"""
+Creating Modules & Packages
+"""
+# ## ARTWORK
+# from artwork_rs import get_artwork
+
+# def main():
+#     artwork = input("Artwork: ")
+#     artworks = get_artwork(query=artwork, limit=3)
+
+#     for artwork in artworks:
+#         print(f"- {artwork}")
+
+
+# main()  
+
+## ARTIST
+# from artists_rs import get_artists
+
+# def main():
+#     artist = input("Artist: ")
+#     artists = get_artists(query=artist, limit=3)
+
+#     for artist in artists:
+#         print(f"- {artist}")
+
+
+# main()  
+
+
+## PACKAGE (collection of multiple modules) - create a folder to put all of the modules in
+# create file called "__init__.py" which can be empty
+
+# from museum_rs.artists_rs import get_artists
+# from museum_rs.artwork_rs import get_artwork
+
+# def main():
+#     artist = input("Artist: ")
+#     artwork = input("Artwork: ")
+#     artists = get_artists(query=artist, limit = 3)
+#     artworks = get_artwork(query=artwork, limit=3)
+#     for artist in artists:
+#         print(f"ARTIST: {artist}")
+#         print(f"ARTWORK: {artworks}")
+
+# main()
+
+
+
+
+
+
+"""
+Random
+"""
+
+## choice --> random sampling ONE item from list
+# import random
+
+# cards = ["jack", "queen", "king"]
+
+# def main():
+#     print(random.choice(cards))
+
+
+# main()
+
+
+# # choices --> sampling with replacement
+# import random
+
+# cards = ["jack", "queen", "king"]
+
+# def main():
+#     print(random.choices(cards, k=2)) # k = how many from list to output
+
+# main()
+
+
+# # sample --> sampling without replacement
+# import random
+
+# cards = ["jack", "queen", "king"]
+
+# def main():
+#     print(random.sample(cards, k=2)) # k = how many from list to output
+
+# main()
+
+
+# ## choices + weights -> sampling with replacement + weights
+# import random
+
+# cards = ["jack", "queen", "king"]
+
+# def main():
+#     print(random.choices(cards, weights = [75,20,5], k=2)) # weights = % of how often will get choosen
+
+# main()
+
+## seed
+# import random
+
+# cards = ["jack", "queen", "king"]
+
+# def main():
+#     random.seed() #random based on time of system
+#     print(random.choices(cards, k=2)) 
+
+# main()
+
+
+## seed but use it to debug
+# import random
+
+# cards = ["jack", "queen", "king"]
+
+# def main():
+#     random.seed(0) #set to 0 or 1 to make it stay constant so can test
+#     print(random.choices(cards, k=2)) 
+
+# main()
+
+
+"""
+Style: PEP 8 (peps.python.org/pep-0008/)
+"""
+## SEE students_rs.py script
+
+# pylint #style guide checker, but is a bit intense
+# pycodestyle #auto reformats your style
+#black # opinionated format style
+
+#run black by typing "black students_rs.py"
+    #reformats scripts (can undo but can't redo with control + z)
+
+# students = {"Hermione": "Gryffindor", "Harry": "Gryffindor", "Ron": "Gryffindor", "Draco": "Slytherin"}
+# for student in students:
+#   print(student)
+
+

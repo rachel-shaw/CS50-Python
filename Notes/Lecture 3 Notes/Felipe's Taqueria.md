@@ -1,6 +1,6 @@
 One of the most popular places to eat in [Harvard Square](https://en.wikipedia.org/wiki/Harvard_Square) is [Felipe’s Taqueria](https://www.felipesboston.com/), which offers a [menu](https://www.felipesboston.com/menu) of entrees, per the `dict` below, wherein the value of each key is a price in dollars:
 
-```
+```python
 {
     "Baja Taco": 4.25,
     "Burrito": 7.50,
@@ -19,7 +19,7 @@ In a file called `taqueria.py`, implement a program that enables a user to plac
 #### Hints
 - Note that you can detect when the user has inputted control-d by catching an [`EOFError`](https://docs.python.org/3/library/exceptions.html#EOFError) with code like:
     
-    ```
+    ```python
     try:
         item = input()
     except EOFError:

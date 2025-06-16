@@ -145,3 +145,47 @@ In your terminal, execute the below to submit your work.
 ```
 submit50 cs50/problems/2022/python/game
 ```
+
+
+### ANSWER
+```python
+"""
+GOALS:
+- prompts the user for a level, n
+- if the user does not input a positive int, the program should prompt again
+- randomly generates an int between 1 and n, inclusive, using random module
+- prompts the user to guess that int
+- if the guess is not a positive int, program should prompt user again
+- if the guess is smaller, program should output "Too small!"
+- if the guess is larger, program should output "Too large!"
+- if the guess is correct, program should output "Just right!" and exit
+"""
+
+import random
+
+def main():
+	level = get_positive_int("Level: ")
+	random_num = random.randint(1, level) #get range instead of using range with random.choice
+	while True:
+		userguess = get_positive_int("Guess: ")
+		if userguess < random_num:
+			print("Too small!")
+		elif userguess > random_num:
+			print("Too large!")
+		else:
+			print("Just right!")
+			break
+		#don't need ValueError here for guess because already taken care of in get_positive_int function
+  
+#verify user entry is int larger than 0
+def get_positive_int(prompt):
+	while True:
+		try:
+			userinput = int(input(prompt)) #prompt instead of having input("Level: ") down here and now we can use it for guess too
+			if userinput > 0:
+				return userinput
+		except ValueError:
+			pass
+
+main()
+```
